@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+	margin:0;
+	padding: 0;
+	background: url("1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+} 
+.mainbox{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	padding: 40px;
+	height: 470px;
+	position: absolute;
+	background: #000;
+	opacity: 80%;
+	text-align: center;
+	border-top-left-radius: 35px;
+	border-bottom-right-radius: 35px;
+	
+}
+
+.profile_pic{
+	border: none;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin: 10px auto;
+	padding: 50px;
+	background: url(photo.png) center no-repeat;
+	background-size: cover;
+	
+	
+}
+h1{
+	font-family: oswald;
+	font-size: 28px;
+	font-weight: 400;
+	color: #fff;
+}
+form{
+	padding: 20px 10px;
+}
+form input[type="text"],form input[type="password"]{
+	display: block;
+	margin: 20px auto;
+	padding: 10px;
+	width: 250px;
+	border-radius: 24px;
+	outline: none;
+	border: 2px solid crimson;
+	font-family: oswald;
+	font-weight: 400;
+	font-size: 18px;
+	background: none;
+	color: #fff;
+}
+input[type="submit"]{
+	padding: 7px;
+	width: 250px;
+	border-radius: 24px;
+	outline: none;
+	border: 2px solid crimson;
+	background: none;
+	font-family: oswald;
+	font-size: 22px;
+	cursor: pointer;
+	color: #999999;
+}
+input[type="submit"]:hover{
+	background: crimson;
+	color: #fff;
+	transition: 0.2s ease;
+}
